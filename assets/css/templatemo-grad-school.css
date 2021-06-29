@@ -1738,3 +1738,32 @@ td {
         width: 100%;
     }
 }
+.paymentcolumn1 {
+    float: left;
+    width: 20%;
+    padding: 50px;
+}
+
+/* Clearfix (clear floats) */
+.paymentrow1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+html, body {
+    overflow-x: hidden;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+    .video-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
