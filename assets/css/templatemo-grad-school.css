@@ -1768,8 +1768,9 @@ html, body {
         position: absolute;
     }
 .footer-info {
-    width: 1180px;
+    width: 100%;
     margin: 0 auto;
+    overflow-x: auto;
 }
 .foot-coop-info {
     padding: 9px 0;
@@ -1777,7 +1778,7 @@ html, body {
     border-bottom: 1px dashed #b1861c;
     display: block;
     color: white;
-    width: 1180px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1809,4 +1810,7 @@ html, body {
 }
 .foot-dashed {
     border-right: 1px dashed #b1861c;
+    border-left: 1px dashed #b1861c;
+    border-bottom: 1px dashed #b1861c;
+    border-top: 1px dashed #b1861c;
 }
